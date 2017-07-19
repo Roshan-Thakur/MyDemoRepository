@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DemoWebApi" namespace="DemoWebApi.Models" >
+
+
+  <class name="EmployeeDetails" table="tbEmpDetails" lazy="false">
+    <id name="id" column="ID">
+      <generator class="native" />
+    </id>
+    <property name="Name" column="Name" />
+    <property name="Address" column="Address" />
+    <property name="Password" column="Password" />
+    <property name="Email" column="Email" />
+    <property name="Contact" column="Contact" />
+  </class>
+  
+  
+</hibernate-mapping>

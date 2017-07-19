@@ -1,0 +1,22 @@
+﻿@model DemoWebApi.Models.EmployeeDetails
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        Name:
+        Address:
+        Contact:
+        Email:
+        Password:
+    </div>
+    <div class="row">
+        <input type="button" value="Save" class="btn btn-primary" style="align-content:center" />
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
